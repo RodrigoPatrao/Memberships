@@ -1,0 +1,5 @@
+﻿@model Memberships.Areas.Admin.Models.SmallButtonModel
+
+<a href="@Url.Action(Model.Action)@Model.ActionParameters" class="btn @Model.ButtonType btn-xs">
+    <span class="glyphicon glyphicon-@Model.Glyph"></span>&nbsp;@Model.Text
+</a>
